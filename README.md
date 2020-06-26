@@ -1,1 +1,1 @@
-# Brain_SC_2020summer_intern
+# Brain SC 2020summer intern
