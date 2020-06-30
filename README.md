@@ -19,7 +19,7 @@ The educational component will also be designed for facilitating the training of
 3. Facilitating the interactive methodology developments between computer scientists, statistician and computational biologists
 4. Providing an educational environment for (1) computer scientists to know the current challenges in computational modeling of biological omics, (2) computational biologists to know the capability of state-of-the-art AI methods, and (3) broader range trainees to learn the whole process and involve in practical applications.
 
-## Sub-goals: 
+## Sub-goals
 1.	Highschool/undergraduate training (students’ notes)
 2.	Testbed with well cleaned paired benchmark set and questions for development of novel AI algorithm (summary and relevant publications)
 3.	Expose state-of-the-art AI methods or framework to computational biologists (summary of relevant publications)
