@@ -12,7 +12,7 @@ This page is designed for Biomedical Data Research Data (BDRD) Lab 2020 Summer S
 - [Xiaoyu Lu](https://zcslab.github.io/people/xiaoyu/)
 (lu14@iu.edu)
 
-Ph.D. candidate, Indiana University School of Medicine
+Ph.D. candidate, School of Medicine, Indiana University
 
 - [Chi Zhang](https://medicine.iu.edu/faculty/27057/zhang-chi)
 (czhang87@iu.edu)
