@@ -16,7 +16,7 @@ This page is designed for Interdisciplinary Research Knowledge Base (IRKB).
 
 ## Key components:
 
-- [Major Research Topics](https://zcslab.github.io/people/xiaoyu/):
+- [Major Research Topics](https://github.com/zcslab/IRKB/tree/master/Components):
 1. Construction a transcriptomics reference map to annotate cell type and cell type specific functions in different bain microenvironments
 
 
