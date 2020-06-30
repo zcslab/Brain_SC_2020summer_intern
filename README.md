@@ -5,8 +5,8 @@ We believe the large amount of single cell and other omics data available in the
 The central goal of this knowledge base is to provide resources to pioneer the development of biological explainable methodologies in single cell data study.
 
 
-## Overview of Single Cell RNA-seq
-![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/scRNA_overview.jpg)
+# ## Overview of Single Cell RNA-seq
+# ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/scRNA_overview.jpg)
 
 
 ## Goal
