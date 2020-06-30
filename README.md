@@ -5,11 +5,13 @@ This page is designed for Interdisciplinary Research Knowledge Base (IRKB).
 ## Overview of Single Cell RNA-seq
 ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/scRNA_overview.jpg)
 
+
 ##Goal
 
 1. Developing a series of computational methods to predict gene sets, networks, or specific data representations in single cell and other omics data that annotate the biological characteristics in different tissue contexts.
 2. Providing a high quality Testbed 
 3. Facilitating the interactive method
+
 
 
 ##Key components:
