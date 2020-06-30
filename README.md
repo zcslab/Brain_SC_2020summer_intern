@@ -16,7 +16,8 @@ The educational component will also be designed for facilitating the training of
 
 1. Developing a series of computational methods to predict gene sets, networks, or specific data representations in single cell and other omics data that annotate the biological characteristics in different tissue contexts.
 2. Providing a high quality Testbed 
-3. Facilitating the interactive method
+3. Facilitating the interactive methodology developments between computer scientists, statistician and computational biologists
+4. Providing educational
 
 
 
@@ -25,6 +26,8 @@ The educational component will also be designed for facilitating the training of
 - [Major Research Topics](https://github.com/zcslab/IRKB/tree/master/Components):
 1. Construction a transcriptomics reference map to annotate cell type and cell type specific functions in different bain microenvironments
 
+
+## Research and educational strategies:
 
 
 ## Contact Information
