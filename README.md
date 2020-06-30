@@ -4,6 +4,12 @@ We believe the large amount of single cell and other omics data available in the
 
 The central goal of this knowledge base is to provide resources to pioneer the development of biological explainable methodologies in single cell data study.
 
+Tackling the challenges involves an interdisciplinary education approach that can translate the state-of-the-art topics, problem setups, research language, and benchmark and metrics between the fields of artificial intelligence, data mining, computational biology and biotechnology. 
+
+We will leverage the translation of the topics from different research fields by providing a series of computational challenges and a well annotated data Testbed.
+
+The educational component will also be designed for facilitating the training of future scientists from college and high school STEM students. College and high school intern students in Biomedical Data Research Lab at Indiana University School of Medicine (PI: Drs.Chi Zhang and Sha Cao) will be directly involved in the construction of this knowledge base, with a specific focus on the educational component.
+
 
 
 ## Goal
