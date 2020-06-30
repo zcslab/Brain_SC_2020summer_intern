@@ -6,7 +6,7 @@ This page is designed for Interdisciplinary Research Knowledge Base (IRKB).
 ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/scRNA_overview.jpg)
 
 
-##Goal
+## Goal
 
 1. Developing a series of computational methods to predict gene sets, networks, or specific data representations in single cell and other omics data that annotate the biological characteristics in different tissue contexts.
 2. Providing a high quality Testbed 
@@ -14,11 +14,10 @@ This page is designed for Interdisciplinary Research Knowledge Base (IRKB).
 
 
 
-##Key components:
+## Key components:
 
 - Major Research Topics:
-Construction transcriptomics reference map to annotate brain m
-
+1. Construction a transcriptomics reference map to annotate cell type and cell type specific functions in different bain microenvironments
 
 
 
