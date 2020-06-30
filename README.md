@@ -20,14 +20,14 @@ The educational component will also be designed for facilitating the training of
 4. Providing educational
 
 
+## Research and educational strategies:
+
 
 ## Key components:
 
 - [Major Research Topics](https://github.com/zcslab/IRKB/tree/master/Components):
 1. Construction a transcriptomics reference map to annotate cell type and cell type specific functions in different bain microenvironments
 
-
-## Research and educational strategies:
 
 
 ## Contact Information
