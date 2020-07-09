@@ -1,6 +1,6 @@
 # Interdisciplinary Research Knowledge Base (IRKB)
 
-We believe the large amount of single cell and other omics data available in the public domain conceive valuable information in characterizing cellular biological properties in different tissue microenvironments, analogous analysis on which can provide substantial novel insights to the fundamental biological understanding in biochemistry, molecular and cell biology.
+We believe the large amount of single cell and other omics data available in the public domain conceive valuable information in characterizing cellular biological properties in different tissue microenvironments, analogous analysis on which can provide substantial novel insights to the fundamental biological understanding in biochemistry, molecular and cell biology.s
 
 The central goal of this knowledge base is to provide resources to pioneer the development of biological explainable methodologies in single cell data study. The high complexity of experimental settings and errors in biological omics data raise a high level demand in cutting edge representation, transfer and multi-task learning approaches for biological explainable data interpretation. On the other hand, the recently generated data single cell multi-omics data is with a comparable scale to social network or imaging data that could facilitate the benchmark of newly developed AI and data mining frameworks.
 
