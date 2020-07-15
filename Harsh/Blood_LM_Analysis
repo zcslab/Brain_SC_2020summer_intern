@@ -1,0 +1,69 @@
+#Load packages
+library(dplyr)
+library(Seurat)
+library(patchwork)
+
+#List all the data sets and the functions
+ls()
+
+#Set the Blood_LM matrix to a variable
+bl_s <- Blood_LM
+bl_s
+
+#Remove the original data matrix to save some space for computational purposes
+rm(Blood_LM)
+
+#Guided Clustering
+bl_s <- CreateSeuratObject(counts = bl_s, project = "bl_s", min.cells = 3, min.features = 200)
+bl_s
+
+dense.size <- object.size(as.matrix(bl_s))
+dense.size
+
+sparse.size <- object.size(bl_s)
+sparse.size
+
+dense.size/sparse.size
+
+
+
+
+***Enter in R***
+bl_s[["percent.mt"]] <- PercentageFeatureSet(bl_s, pattern = "^MT-")
+
+VlnPlot(bl_s, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
+
+plot1 <- FeatureScatter(bl_s, feature1 = "nCount_RNA", feature2 = "percent.mt")
+plot2 <- FeatureScatter(bl_s, feature1 = "nCount_RNA", feature2 = "nFeature_RNA")
+plot1 + plot2
+
+bl_s <-  subset(bl_s, subset = nFeature_RNA > 200 & nFeature_RNA < 2500 & percent.mt < 5)
+
+bl_s <- NormalizeData(bl_s, normalization.method = "LogNormalize", scale.factor = 10000)
+bl_s <- NormalizeData(bl_s)
+bl_s <- FindVariableFeatures(bl_s, selection.method = "vst", nfeatures = 2000)
+
+# Identify the 10 most highly variable genes
+top10 <- head(VariableFeatures(bl_s), 10)
+
+# plot variable features with and without labels
+plot1 <- VariableFeaturePlot(bl_s)
+plot2 <- LabelPoints(plot = plot1, points = top10, repel = TRUE)
+plot1 + plot2
+all.genes <- rownames(bl_s)
+bl_s <- ScaleData(bl_s, features = all.genes)
+
+head(Idents(bl_s), 5)
+
+
+bl_s.markers <- FindAllMarkers(bl_s, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+
+
+VlnPlot(bl_s, features = c("NKG7", "PF4"), slot = "counts", log = TRUE)
+
+new.cluster.ids <- c("Naive CD4 T", "Memory CD4 T", "CD14+ Mono", "B", "CD8 T", "FCGR3A+ Mono", 
+    "NK", "DC", "Platelet")
+    
+names(new.cluster.ids) <- levels(bl_s)
+
+bl_s <- RenameIdents(bl_s, new.cluster.ids)
