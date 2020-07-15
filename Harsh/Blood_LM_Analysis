@@ -25,10 +25,6 @@ sparse.size
 
 dense.size/sparse.size
 
-
-
-
-***Enter in R***
 bl_s[["percent.mt"]] <- PercentageFeatureSet(bl_s, pattern = "^MT-")
 
 VlnPlot(bl_s, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
