@@ -101,7 +101,8 @@ The complexity of analysis of scRNA-seq data involves:
 
 # Recommendations:
 	1. Inflated p values can lead to over interpretation of the results.
-	2. Top markers are most trustworthy. (Selection of most proper markers may really help to generate correct cell clusters correspond to cell types)
+	2. Top markers are most trustworthy. 
+	(Selection of most proper markers may really help to generate correct cell clusters correspond to cell types)
   
 # Interpretation:
 
