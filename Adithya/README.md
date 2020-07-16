@@ -28,6 +28,13 @@ Need a computational framework with a pipeline and web-server that can be used t
 4.  To determine whether there’s a need to re-cluster based on cell type markers, perhaps clusters need to be merged or split
 5.  Experimentally validate markers for our identified cell types.
 
+# Tools 
+1.	Hands on R- programming
+2.	Prepared a tutorial guide for High School and College students to quickly understand Single Cell RNA Seq
+3.	Worked on Seurat Package R package designed for QC analysis, and exploration of single cell RNA seq data.
+4.	R Markdown  tool to turn our  analyses into high quality documents, reports, presentations and dashboards.  	
+5.	Github tools: https://github.com/zcslab/IRKB	
+
 # Methods
 1.	Understand the considerations when designing a single cell RNA seq experiment
 2.	Analyzed the Datasets to identify differentially expressed genes in a specific cell type.
@@ -82,10 +89,10 @@ The complexity of analysis of scRNA-seq data involves:
 ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/result2.jpg)
 # Marker Identification
  
- FindAllMarkers() function is used  to compare each cluster to identify potential marker genes. 
- The cells in each cluster are treated as replicates, and essentially a differential expression analysis is performed with some statistical test. 
- Top 10 Markers were identified. 
- We use the gene lists to see if we can identify which cell types these clusters identify with.
+ 1.	FindAllMarkers() function is used  to compare each cluster to identify potential marker genes. 
+ 2.	The cells in each cluster are treated as replicates, and essentially a differential expression analysis is performed with some statistical test. 
+ 3.	Top 10 Markers were identified. 
+ 4.	We use the gene lists to see if we can identify which cell types these clusters identify with.
  
 # Conclusion
   Challenges:
@@ -118,5 +125,5 @@ Overall, we recommend the following:
 
 
 
-
+						  		THE END 
 
