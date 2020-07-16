@@ -1,0 +1,66 @@
+#Load packages
+library(devtools)
+library(Matrix)
+library(dplyr)
+library(stringi)
+library(ggplot2)
+library(Seurat)
+library(patchwork)
+
+#List all the data sets and the functions
+ls()
+
+#Set the GSE138852 matrix to a variable
+bc=GSE67835_LM
+
+#Remove the original data matrix to save some space for computational purposes
+rm(GSE67835_LM)
+
+#Guided Clustering
+bc_s <- CreateSeuratObject(counts = bc, project = "bc", min.cells = 3, min.features = 200)
+bc_s
+
+bc_s[["percent.mt"]] <- PercentageFeatureSet(bc_s, pattern = "^MT-")
+bc_s <- NormalizeData(bc_s)
+bc_s<-FindVariableFeatures(bc_s, selection.method = "vst", nfeatures = 2000)
+
+n.dims = 20
+
+resolutions=0.7
+
+all.genes <- rownames(bc_s)
+bc_s <- ScaleData(bc_s, features = all.genes)
+
+markers <- FindAllMarkers(bc_s, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+
+plot1 <- FeatureScatter(bc_s, feature1 = ("nCount_RNA"), feature2 = ("percent.mt"))
+plot2 <- FeatureScatter(bc_s, feature1 = "nCount_RNA", feature2 = "nFeature_RNA")
+plot1 + plot2
+
+VlnPlot(bc_s, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
+bc_s <- subset(bc_s, subset = nFeature_RNA > 200 & nFeature_RNA < 2500 & percent.mt < 5)
+bc_s <- FindVariableFeatures(bc_s, selection.method = "vst", nfeatures = 2000)
+
+top10 <- head(VariableFeatures(bc_s), 10)
+top10
+
+all.genes <- rownames(bc_s)
+
+bc_s <- ScaleData(bc_s)
+bc_s <- ScaleData(bc_s, vars.to.regress = "percent.mt")
+
+plot1 <- VariableFeaturePlot(bc_s)
+plot2 <- LabelPoints(plot = plot1, points = top10, repel = TRUE)
+plot1 + plot2
+
+bc_s.markers <- FindAllMarkers(bc_s, only.pos = TRUE, min.pct = 0.25, logfc.threshold = 0.25)
+
+top10
+
+levels(bc_s)
+new.cluster.ids <- c("Naive CD4 T", "Memory CD4 T", "CD14+ Mono", "B", "CD8 T", "FCGR3A+ Mono", 
+    "NK", "DC", "Platelet", "9", "10", "11")
+names(new.cluster.ids) <- levels(bc_s)
+bc_s <- RenameIdents(bc_s, new.cluster.ids)
+
+save(bc_s, file ='GSETutorial.Rds')
