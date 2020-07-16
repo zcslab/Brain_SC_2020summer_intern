@@ -122,6 +122,10 @@ Overall, we recommend the following:
           3.3   Prepare libraries at same time or alternate sample groups to avoid batch confounding
           3.4   Do not confound sample groups by sex, age, or batch
 
+# Contact information
+Adithya Ayanam
+Rising Junior at Cpral Academy of Science Nevada
+Email: adi.ayanam@gmail.com
 
 
 
