@@ -67,7 +67,8 @@ The complexity of analysis of scRNA-seq data involves:
 3.  Technical variability across cells/samples - such as Library quality, amplification bias, batch effects 
 4.  Biological variability across cells/samples - Transcriptional bursting, varying rates of RNA processing, Environmental stimuli, Temporal changes.
 
+# Data Analysis Workflow
 
-
+       ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/singleCell.jpg)
 
 
