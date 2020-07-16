@@ -122,12 +122,26 @@ Overall, we recommend the following:
           3.3   Prepare libraries at same time or alternate sample groups to avoid batch confounding
           3.4   Do not confound sample groups by sex, age, or batch
 
-# Contact information
-Adithya Ayanam
-Rising Junior at Cpral Academy of Science Nevada
-Email: adi.ayanam@gmail.com
+
+## Contact Information
+- [Adithya Ayanam]
+- [Rising Junior at Coral Academy of Science Nevada]
+- [Email: (adi.ayanam@gmail.com)]
 
 
+
+
+## Reference
+
+- [Xiaoyu Lu](https://zcslab.github.io/people/xiaoyu/)
+(lu14@iu.edu)
+
+Ph.D. candidate, School of Medicine, Indiana University
+
+- [Chi Zhang](https://medicine.iu.edu/faculty/27057/zhang-chi)
+(czhang87@iu.edu)
+
+Assistant Professor of Medical & Molecular Genetics, School of Medicine, Indiana University
 
 						  		THE END 
 
