@@ -71,5 +71,45 @@ The complexity of analysis of scRNA-seq data involves:
 
           ![image](https://github.com/zcslab/IRKB/tree/master/fig/analysiswflw.jpg)
          
+# Results and Analysis
+
+# Marker Identification
+ 
+ FindAllMarkers() function is used  to compare each cluster to identify potential marker genes. 
+ The cells in each cluster are treated as replicates, and essentially a differential expression analysis is performed with some statistical test. 
+ Top 10 Markers were identified. 
+ We use the gene lists to see if we can identify which cell types these clusters identify with.
+ 
+# Conclusion
+  Challenges:
+  1.  Over interpretation of the results
+  2.  Combining different types of marker identification.
+
+# Recommendations:
+	1. Inflated p values can lead to over interpretation of the results.
+	2. Top markers are most trustworthy. (Selection of most proper markers may really help to generate correct cell clusters correspond to cell types)
+  
+# Interpretation:
+
+ These results and the Feature and Violin plots help us 
+  1.  Determine the identity of these clusters or 
+  2.  Verify what we hypothesize the identity to be after exploring the markers of expected cell types previously. 
+  3.  scRNA seq is a powerful and insightful method for the analysis of gene expression with single cell resolution
+  4.  Analysis of Data is complex  or limited due to  many challenges and sources of variation  
+  
+# Overall Recommendations
+
+Overall, we recommend the following:
+  1.  Do not perform single cell RNA seq unless it is necessary for the experimental question of interest. Understand the details of the experimental question you wish to address. 
+  2.  The recommended library preparation method and analysis workflow can vary based on the specific experiment.
+  3.  Avoid technical sources of variability, if possible:
+          3.1   Discuss experimental design with experts prior to the initiation of the experiment
+          3.2   Isolate RNA from samples at same time
+          3.3   Prepare libraries at same time or alternate sample groups to avoid batch confounding
+          3.4   Do not confound sample groups by sex, age, or batch
+
+
+
+
 
 
