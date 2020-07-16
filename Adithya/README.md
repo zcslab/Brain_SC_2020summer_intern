@@ -1,45 +1,45 @@
 #         Development of a Single Cell RNA Sequencing data based Testbed for studying brain diseases.
 #                         (Data Analysis Project – using R programming)
  
-Project Overview:
+# Project Overview:
 Develop a series of computational methods and derive  some knowledge of the role of disease-specific cell features in different human diseases. 
 Need a computational framework with a pipeline and web-server that can be used to study a broader set of disease types. The knowledge derived can be used to build a database.
 
-#Bulk Seq Vs Single cell RNA Seq
+# Bulk Seq Vs Single cell RNA Seq
 ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/bulkvssingle.jpg)
 
 # Single cell RNA sequencing
-  1.  Measures the distribution of expression levels for each gene across a population of cells.
-  2.  Study of Cell Specific changes in transcriptome eg.cell type identification.
+  -  Measures the distribution of expression levels for each gene across a population of cells.
+  -  Study of Cell Specific changes in transcriptome eg.cell type identification.
               ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/singleCell.jpg)
           
 # Why Single Cell RNA Seq
-1.  Explore which cell types are present in a tissue
-2.  Identify unknown/rare cell types or states
-3.  Elucidate the changes in gene expression during differentiation processes or across time or states
-4.  Identify genes that are differentially expressed in particular cell types between conditions (e.g. treatment or disease)
-5.  Explore changes in expression among a cell type while incorporating spatial, regulatory, and/or protein information
+-  Explore which cell types are present in a tissue
+-  Identify unknown/rare cell types or states
+-  Elucidate the changes in gene expression during differentiation processes or across time or states
+-  Identify genes that are differentially expressed in particular cell types between conditions (e.g. treatment or disease)
+-  Explore changes in expression among a cell type while incorporating spatial, regulatory, and/or protein information
 
 # Research Objectives              
-1.  To explore and detail cell type specific gene expression patterns, unveiling how transcriptional changes in specific cell populations are associated with Alzheimer’s disease.
-2.  To determine the gene markers for each of the clusters
-3.  To identify cell types of each cluster using markers
-4.  To determine whether there’s a need to re-cluster based on cell type markers, perhaps clusters need to be merged or split
-5.  Experimentally validate markers for our identified cell types.
+-  To explore and detail cell type specific gene expression patterns, unveiling how transcriptional changes in specific cell populations are associated with Alzheimer’s disease.
+-  To determine the gene markers for each of the clusters
+-  To identify cell types of each cluster using markers
+-  To determine whether there’s a need to re-cluster based on cell type markers, perhaps clusters need to be merged or split
+-  Experimentally validate markers for our identified cell types.
 
 # Tools 
-1.	Hands on R- programming
-2.	Prepared a tutorial guide for High School and College students to quickly understand Single Cell RNA Seq
-3.	Worked on Seurat Package R package designed for QC analysis, and exploration of single cell RNA seq data.
-4.	R Markdown  tool to turn our  analyses into high quality documents, reports, presentations and dashboards.  	
-5.	Github tools: https://github.com/zcslab/IRKB	
+-	Hands on R- programming
+-	Prepared a tutorial guide for High School and College students to quickly understand Single Cell RNA Seq
+-	Worked on Seurat Package R package designed for QC analysis, and exploration of single cell RNA seq data.
+-	R Markdown  tool to turn our  analyses into high quality documents, reports, presentations and dashboards.  	
+-	Github tools: https://github.com/zcslab/IRKB	
 
 # Methods
-1.	Understand the considerations when designing a single cell RNA seq experiment
-2.	Analyzed the Datasets to identify differentially expressed genes in a specific cell type.
-3.	Discussed the steps involved in taking raw single cell RNA sequencing data and generating a count (gene expression) matrix
-4.	Compute and assess QC metrics at every step in the workflow
-5.	Cluster cells based on expression data and derive the identity of the different cell types present
+-	Understand the considerations when designing a single cell RNA seq experiment
+-	Analyzed the Datasets to identify differentially expressed genes in a specific cell type.
+-	Discussed the steps involved in taking raw single cell RNA sequencing data and generating a count (gene expression) matrix
+-	Compute and assess QC metrics at every step in the workflow
+-	Cluster cells based on expression data and derive the identity of the different cell types present
  		![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/Method.jpg)
 		
 # Popular Methods
@@ -47,20 +47,20 @@ Need a computational framework with a pipeline and web-server that can be used t
 
 # Data Analysis
 Sample Data Set  we analysed was  GEO series  - GEO138852 - cells from Alzhimer's Disease brains of 12 Individuals 
-1.  Some relevant metadata for our dataset is provided below:
-2.  The libraries were prepared using 10X Genomics 
-3.  The samples were sequenced on the Illumina NextSeq 500
-4.  The samples were on the entorhinal cortex from control and AD brains of twelve individuals, yielding a total of 13,214 high quality nuclei..				
-5.  Single Nuclei RNA sequencing of 8 10x libraries with each library containing 2 individuals (n =16)		
+-  Some relevant metadata for our dataset is provided below:
+-  The libraries were prepared using 10X Genomics 
+-  The samples were sequenced on the Illumina NextSeq 500
+-  The samples were on the entorhinal cortex from control and AD brains of twelve individuals, yielding a total of 13,214 high quality nuclei..				
+-  Single Nuclei RNA sequencing of 8 10x libraries with each library containing 2 individuals (n =16)		
 
 # Expected Cell Types 
 Since the samples are from brain tissue, we will expect the following cells, such as:
-1.  Oligodendrocyte
-2.  Microglia
-3.  Neuron
-4.  OPC (Oligodendrocyte progenitor cells)
-5.  Endothelial
-6.  Astrocytes
+-  Oligodendrocyte
+-  Microglia
+-  Neuron
+-  OPC (Oligodendrocyte progenitor cells)
+-  Endothelial
+-  Astrocytes
 
 # Recommendations
 1.  Need to  have some expectation regarding the cell types before QC 
@@ -88,10 +88,10 @@ The complexity of analysis of scRNA-seq data involves:
 ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/result2.jpg)
 # Marker Identification
  
- 1.	FindAllMarkers() function is used  to compare each cluster to identify potential marker genes. 
- 2.	The cells in each cluster are treated as replicates, and essentially a differential expression analysis is performed with some statistical test. 
- 3.	Top 10 Markers were identified. 
- 4.	We use the gene lists to see if we can identify which cell types these clusters identify with.
+-	FindAllMarkers() function is used  to compare each cluster to identify potential marker genes. 
+-	The cells in each cluster are treated as replicates, and essentially a differential expression analysis is performed with some statistical test. 
+-	Top 10 Markers were identified. 
+-	We use the gene lists to see if we can identify which cell types these clusters identify with.
  
 # Conclusion
   Challenges:
@@ -124,11 +124,11 @@ Overall, we recommend the following:
 
 
 ## Contact Information
-- Adithya Ayanam
+- Adithya Ayanam (adi.ayanam@gmail.com)
 
-Rising Junior at Coral Academy of Science Nevada
+Rising Junior at Coral Academy of Science High School '22,  Nevada
 
-Email: adi.ayanam@gmail.com
+ 
 
 
 
