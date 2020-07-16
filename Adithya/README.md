@@ -69,6 +69,6 @@ The complexity of analysis of scRNA-seq data involves:
 
 # Data Analysis Workflow
 
-       ![image](https://github.com/zcslab/IRKB/blob/master/fig/analysiswflw.jpg)
+        ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/analysiswflw.jpg)
 
 
