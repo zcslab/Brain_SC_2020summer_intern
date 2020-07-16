@@ -125,8 +125,8 @@ Overall, we recommend the following:
 
 ## Contact Information
 - Adithya Ayanam
-- Rising Junior at Coral Academy of Science Nevada
-- Email: adi.ayanam@gmail.com
+Rising Junior at Coral Academy of Science Nevada
+Email: adi.ayanam@gmail.com
 
 
 
