@@ -9,10 +9,10 @@ Need a computational framework with a pipeline and web-server that can be used t
 #Bulk Seq Vs Single cell RNA Seq
 ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/bulkvssingle.jpg)
 
-#Single cell RNA sequencing
-1.Measures the distribution of expression levels for each gene across a population of cells.
-2.Study of Cell Specific changes in transcriptome eg.cell type identification.
-
+# Single cell RNA sequencing
+  1.  Measures the distribution of expression levels for each gene across a population of cells.
+  2.  Study of Cell Specific changes in transcriptome eg.cell type identification.
+              ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/singleCell.jpg)
 
 
 
