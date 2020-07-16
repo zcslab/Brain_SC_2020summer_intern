@@ -29,11 +29,15 @@ Need a computational framework with a pipeline and web-server that can be used t
 5.  Experimentally validate markers for our identified cell types.
 
 # Methods
-Understand the considerations when designing a single cell RNA seq experiment
-Analyzed the Datasets to identify differentially expressed genes in a specific cell type.
-Discussed the steps involved in taking raw single cell RNA sequencing data and generating a count (gene expression) matrix
-Compute and assess QC metrics at every step in the workflow
-Cluster cells based on expression data and derive the identity of the different cell types present
+1.	Understand the considerations when designing a single cell RNA seq experiment
+2.	Analyzed the Datasets to identify differentially expressed genes in a specific cell type.
+3.	Discussed the steps involved in taking raw single cell RNA sequencing data and generating a count (gene expression) matrix
+4.	Compute and assess QC metrics at every step in the workflow
+5.	Cluster cells based on expression data and derive the identity of the different cell types present
+ 		![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/Method.jpg)
+		
+# Popular Methods
+![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/popularmethods.jpg)
 
 # Data Analysis
 Sample Data Set  we analysed was  GEO series  - GEO138852 - cells from Alzhimer's Disease brains of 12 Individuals 
@@ -68,11 +72,14 @@ The complexity of analysis of scRNA-seq data involves:
 4.  Biological variability across cells/samples - Transcriptional bursting, varying rates of RNA processing, Environmental stimuli, Temporal changes.
 
 # Data Analysis Workflow
-
-          ![image](https://github.com/zcslab/IRKB/tree/master/fig/analysiswflw.jpg)
+![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/analysiswflw.jpg)
          
 # Results and Analysis
 
+![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/result.jpg)
+
+
+![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/result2.jpg)
 # Marker Identification
  
  FindAllMarkers() function is used  to compare each cluster to identify potential marker genes. 
