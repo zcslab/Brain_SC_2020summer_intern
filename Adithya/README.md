@@ -117,10 +117,10 @@ Overall, we recommend the following:
   1.  Do not perform single cell RNA seq unless it is necessary for the experimental question of interest. Understand the details of the experimental question you wish to address. 
   2.  The recommended library preparation method and analysis workflow can vary based on the specific experiment.
   3.  Avoid technical sources of variability, if possible:
-          -   Discuss experimental design with experts prior to the initiation of the experiment
-          -   Isolate RNA from samples at same time
-          -   Prepare libraries at same time or alternate sample groups to avoid batch confounding
-          -   Do not confound sample groups by sex, age, or batch
+  -   Discuss experimental design with experts prior to the initiation of the experiment
+  -   Isolate RNA from samples at same time
+  -   Prepare libraries at same time or alternate sample groups to avoid batch confounding
+  -   Do not confound sample groups by sex, age, or batch
 
 
 ## Contact Information
