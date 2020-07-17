@@ -128,7 +128,7 @@ Overall, we recommend the following:
 
 Rising Junior at Coral Academy of Science High School '22,  Nevada
 
- 
+ ## Mentors
 
 - [Xiaoyu Lu](https://zcslab.github.io/people/xiaoyu/)
 (lu14@iu.edu)
