@@ -130,11 +130,6 @@ Rising Junior at Coral Academy of Science High School '22,  Nevada
 
  
 
-
-
-
-## Reference
-
 - [Xiaoyu Lu](https://zcslab.github.io/people/xiaoyu/)
 (lu14@iu.edu)
 
@@ -144,6 +139,13 @@ Ph.D. candidate, School of Medicine, Indiana University
 (czhang87@iu.edu)
 
 Assistant Professor of Medical & Molecular Genetics, School of Medicine, Indiana University
+
+
+
+## Reference
+
+This research paper helped develop our understanding of the GSE138852 set of matrices.
+Grubman, A., Chew, G., Ouyang, J.F. et al. A single-cell atlas of entorhinal cortex from individuals with Alzheimer’s disease reveals cell-type-specific gene expression regulation. Nat Neurosci 22, 2087–2097 (2019). https://doi.org/10.1038/s41593-019-0539-4
 
 						  		THE END 
 
