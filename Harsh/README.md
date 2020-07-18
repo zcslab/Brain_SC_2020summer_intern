@@ -124,7 +124,8 @@ Overall, we recommend the following:
 
 
 ## Contact Information
-- Harsh Duvvuru (harshduvvuru@gmail.com)
+Harsh Duvvuru 
+- Email: harshduvvuru@gmail.com
 - linkedin: https://www.linkedin.com/in/harsh-duvvuru-6173ba1a0/
 - Github:  https://github.com/hduvvuru2
 
@@ -148,6 +149,4 @@ Assistant Professor of Medical & Molecular Genetics, School of Medicine, Indiana
 
 This research paper helped develop our understanding of the GSE138852 set of matrices.
 Grubman, A., Chew, G., Ouyang, J.F. et al. A single-cell atlas of entorhinal cortex from individuals with Alzheimer’s disease reveals cell-type-specific gene expression regulation. Nat Neurosci 22, 2087–2097 (2019). https://doi.org/10.1038/s41593-019-0539-4
-
-						  		THE END 
 
