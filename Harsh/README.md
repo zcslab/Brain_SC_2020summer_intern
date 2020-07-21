@@ -24,7 +24,7 @@ Need a computational framework with a pipeline and web-server that can be used t
 -  Explore changes in expression among a cell type while incorporating spatial, regulatory, and/or protein information
 
 # Research Objectives              
--  To explore and detail cell type specific gene expression patterns, unveiling how transcriptional changes in specific cell populations are associated with Alzheimer’s disease.
+-  To explore and detail cell type specific gene expression patterns, unveiling how transcriptional changes in specific cell populations
 -  To determine the gene markers for each of the clusters
 -  To identify cell types of each cluster using markers
 -  To determine whether there’s a need to re-cluster based on cell type markers, perhaps clusters need to be merged or split
