@@ -56,7 +56,7 @@ Sample Data Set  we analysed was  GEO series  - GSE67835 - cells from Alzhimer's
 -  The samples were sequenced on the Illumina NextSeq 500
 -  The samples were 466 cells of epileptic patients' temporal lobe tissue
 
-- ![image](https://github.com/zcslab/IRKB/blob/master/fig/Temporal_Lobe.jpeg)
+![image](https://github.com/zcslab/IRKB/blob/master/fig/Temporal_Lobe.jpeg)
 
 # Expected Cell Types 
 Since the samples are from brain tissue, we will expect the following cells, such as:
