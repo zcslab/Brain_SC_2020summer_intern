@@ -1,6 +1,9 @@
 #         Development of a Single Cell RNA Sequencing data based Testbed for studying brain diseases.
 ##                        (Data Analysis Project – using R programming)
- 
+
+**Covered in this README.md is the GSE138852 dataset**
+For GSE67835_LM please click here: https://github.com/zcslab/IRKB/tree/master/Adithya
+
 # Project Overview:
 Develop a series of computational methods and derive  some knowledge of the role of disease-specific cell features in different human diseases. 
 Need a computational framework with a pipeline and web-server that can be used to study a broader set of disease types. The knowledge derived can be used to build a database.
