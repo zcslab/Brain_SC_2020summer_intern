@@ -101,9 +101,9 @@ https://github.com/zcslab/IRKB/blob/master/Harsh/GSE67835_LM_Analysis
   2.  Combining different types of marker identification.
 
 # Recommendations:
-	1. Inflated p values can lead to over interpretation of the results.
-	2. Top markers are most trustworthy. 
-	(Selection of most proper markers may really help to generate correct cell clusters correspond to cell types)
+  1. Inflated p values can lead to over interpretation of the results.
+  2. Top markers are most trustworthy. 
+  (Selection of most proper markers may really help to generate correct cell clusters correspond to cell types)
   
 # Interpretation:
 
