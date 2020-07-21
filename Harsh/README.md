@@ -44,7 +44,6 @@ Need a computational framework with a pipeline and web-server that can be used t
 -	Discussed the steps involved in taking raw single cell RNA sequencing data and generating a count (gene expression) matrix
 -	Compute and assess QC metrics at every step in the workflow
 -	Cluster cells based on expression data and derive the identity of the different cell types present
- 		![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/Method.jpg)
 		
 # Popular Methods
 ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/popularmethods.jpg)
