@@ -152,3 +152,5 @@ Assistant Professor of Medical & Molecular Genetics, School of Medicine, Indiana
 This research paper helped develop our understanding of the GSE67835 set of matrices.
 Spyros Darmanis, Steven A. Sloan, Ye Zhang, Martin Enge, Christine Caneda, Lawrence M. Shuer, Melanie G. Hayden Gephart, Ben A. Barres, Stephen R. Quake
 Proceedings of the National Academy of Sciences Jun 2015, 112 (23) 7285-7290; DOI: 10.1073/pnas.1507125112
+
+Link: https://www.pnas.org/content/112/23/7285
