@@ -49,7 +49,7 @@ Need a computational framework with a pipeline and web-server that can be used t
 ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/popularmethods.jpg)
 
 # Data Analysis
-Sample Data Set  we analysed was  GEO series  - GSE67835 - cells from Alzhimer's Disease brains of 12 Individuals 
+Sample Data Set  we analysed was  GEO series- GSE67835
 -  Some relevant metadata for our dataset is provided below:
 -  The libraries were prepared using 10X Genomics 
 -  The samples were sequenced on the Illumina NextSeq 500
