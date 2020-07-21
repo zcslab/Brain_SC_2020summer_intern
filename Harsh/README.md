@@ -2,7 +2,7 @@
 ##                        (Data Analysis Project – using R programming)
 
 **Covered in this README.md is the GSE67835_LM dataset**
-For GSE138852 please click here: https://github.com/zcslab/IRKB/tree/master/Harsh
+For GSE138852 please click here: https://github.com/zcslab/IRKB/tree/master/Adithya
 
 # Project Overview:
 Develop a series of computational methods and derive  some knowledge of the role of disease-specific cell features in different human diseases. 
