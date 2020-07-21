@@ -1,6 +1,9 @@
 #         Development of a Single Cell RNA Sequencing data based Testbed for studying brain diseases.
 ##                        (Data Analysis Project – using R programming)
- 
+
+**Covered in this README.md is the GSE67835_LM dataset**
+For GSE138852 please click here: https://github.com/zcslab/IRKB/tree/master/Harsh
+
 # Project Overview:
 Develop a series of computational methods and derive  some knowledge of the role of disease-specific cell features in different human diseases. 
 Need a computational framework with a pipeline and web-server that can be used to study a broader set of disease types. The knowledge derived can be used to build a database.
@@ -11,7 +14,7 @@ Need a computational framework with a pipeline and web-server that can be used t
 # Single cell RNA sequencing
   -  Measures the distribution of expression levels for each gene across a population of cells.
   -  Study of Cell Specific changes in transcriptome eg.cell type identification.
-              ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/singleCell.jpg)
+              ![image](https://github.com/zcslab/IRKB/blob/master/fig/scRNA_overview.jpg)
           
 # Why Single Cell RNA Seq
 -  Explore which cell types are present in a tissue
