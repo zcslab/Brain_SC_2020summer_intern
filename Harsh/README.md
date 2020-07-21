@@ -2,7 +2,7 @@
 ##                        (Data Analysis Project – using R programming)
 
 **Covered in this README.md is the GSE67835_LM dataset**
-For GSE138852 please click here: https://github.com/zcslab/IRKB/tree/master/Adithya
+for GSE138852 please click here: https://github.com/zcslab/IRKB/tree/master/Adithya
 
 # Project Overview:
 Develop a series of computational methods and derive  some knowledge of the role of disease-specific cell features in different human diseases. 
@@ -36,6 +36,7 @@ Need a computational framework with a pipeline and web-server that can be used t
 -	Worked on Seurat Package R package designed for QC analysis, and exploration of single cell RNA seq data.
 -	R Markdown  tool to turn our  analyses into high quality documents, reports, presentations and dashboards.  	
 -	Github tools: https://github.com/zcslab/IRKB	
+-	Zoom to contact other lab member and creation of youtube videos.
 
 # Methods
 -	Understand the considerations when designing a single cell RNA seq experiment
@@ -49,12 +50,13 @@ Need a computational framework with a pipeline and web-server that can be used t
 ![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/popularmethods.jpg)
 
 # Data Analysis
-Sample Data Set  we analysed was  GEO series  - GEO138852 - cells from Alzhimer's Disease brains of 12 Individuals 
+Sample Data Set  we analysed was  GEO series  - GSE67835 - cells from Alzhimer's Disease brains of 12 Individuals 
 -  Some relevant metadata for our dataset is provided below:
 -  The libraries were prepared using 10X Genomics 
 -  The samples were sequenced on the Illumina NextSeq 500
--  The samples were on the entorhinal cortex from control and AD brains of twelve individuals, yielding a total of 13,214 high quality nuclei..				
--  Single Nuclei RNA sequencing of 8 10x libraries with each library containing 2 individuals (n =16)		
+-  The samples were 466 cells of epileptic patients' temporal lobe tissue
+
+- ![image](https://github.com/zcslab/IRKB/blob/master/fig/Temporal_Lobe.jpeg)
 
 # Expected Cell Types 
 Since the samples are from brain tissue, we will expect the following cells, such as:
@@ -81,14 +83,12 @@ The complexity of analysis of scRNA-seq data involves:
 4.  Biological variability across cells/samples - Transcriptional bursting, varying rates of RNA processing, Environmental stimuli, Temporal changes.
 
 # Data Analysis Workflow
-![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/analysiswflw.jpg)
+![image](https://github.com/zcslab/IRKB/blob/master/fig/DataAnalysis_aligned.PNG)
          
-# Results and Analysis
+# Analysis
 
-![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/result.jpg)
+https://github.com/zcslab/IRKB/blob/master/Harsh/GSE67835_LM_Analysis
 
-
-![image](https://github.com/zcslab/Brain_SC_2020summer_intern/blob/master/fig/result2.jpg)
 # Marker Identification
  
 -	FindAllMarkers() function is used  to compare each cluster to identify potential marker genes. 
@@ -150,6 +150,6 @@ Assistant Professor of Medical & Molecular Genetics, School of Medicine, Indiana
 
 ## Reference
 
-This research paper helped develop our understanding of the GSE138852 set of matrices.
-Grubman, A., Chew, G., Ouyang, J.F. et al. A single-cell atlas of entorhinal cortex from individuals with Alzheimer’s disease reveals cell-type-specific gene expression regulation. Nat Neurosci 22, 2087–2097 (2019). https://doi.org/10.1038/s41593-019-0539-4
-
+This research paper helped develop our understanding of the GSE67835 set of matrices.
+Spyros Darmanis, Steven A. Sloan, Ye Zhang, Martin Enge, Christine Caneda, Lawrence M. Shuer, Melanie G. Hayden Gephart, Ben A. Barres, Stephen R. Quake
+Proceedings of the National Academy of Sciences Jun 2015, 112 (23) 7285-7290; DOI: 10.1073/pnas.1507125112
